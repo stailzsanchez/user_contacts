@@ -1,0 +1,4 @@
+{
+  "http://localhost:5000/users\\?username=:username": "/username/:username",
+  "http://localhost:5000/contacts\\?userId=:id": "/contacts/:userId"
+}

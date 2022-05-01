@@ -1,0 +1,134 @@
+/*///////////////////////////Contact///////////////////////////*/
+.contacts-wrap {
+  max-width: 1000px;
+  padding: 20px 15px 60px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-wrap {
+  width: 100%;
+  min-height: 70px;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgb(153, 142, 142);
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: 30px 1fr minmax(120px, 150px) 1fr 60px;
+  grid-template-areas: "avatar name phone email buttons";
+  transition: var(--transition);
+}
+
+.contact-wrap:hover {
+  background-color:rgba(111, 174, 237, 0.4);
+}
+
+.contact-wrap:last-child {
+  border-bottom: none;
+}
+
+.contact-list-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-add-btn {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  border: none;
+  border-radius: 50%;
+  font-size: 60px;
+  background-color: #fff;
+  color: #2488df !important;
+  transition: all 500ms;
+}
+
+.contact-add-btn:hover {
+  transform: scale(1.2);
+}
+
+.contact-name {
+  font-size: 15px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.contact-phone {
+  display: flex;
+  align-items: center;
+}
+
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.contact__btns {
+  align-items: flex-end;
+  display: flex;
+  gap: 10px;
+}
+
+.contact-name__icon {
+  font-size: var(--size-contact-icon)
+}
+
+.contact-edit__icon {
+  font-size: var(--size-contact-icon);
+  color: #365e81;
+}
+
+.contact-del__icon {
+  font-size: var(--size-contact-icon);
+  color: #cc4545;
+}
+
+.icon-clicked {
+  transition: var(--transition);
+}
+
+.icon-clicked:hover {
+  transform: scale(1.2);
+}
+
+
+/*//////////////////////// media query////////////////////////*/
+
+@media screen and (max-width: 800px) {
+  .contact-wrap {
+    gap: 10px;
+    grid-template-columns: 30px 1fr minmax(120px, 150px) 60px;
+    grid-template-areas: "avatar name phone buttons"
+  }
+  .contact-email {
+    display: none;
+  }
+  .contact-add-btn  {
+    right: 20px;
+    bottom: 20px;
+    font-size: 40px;
+    background-color: #fff;
+    color: #2488df !important;
+    transition: all 500ms;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacts-wrap {
+    padding: 20px 10px 60px 10px;
+  }
+  .contact-phone {
+    display: none;
+  }
+  .contact-wrap {
+    gap: 10px;
+    grid-template-columns: 30px 1fr 60px;
+    grid-template-areas: "avatar name buttons"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "123"
+    },
+    {
+      "id": "123",
+      "username": "stailz",
+      "password": "123"
+    }
+  ],
+  "user-contacts": [
+    {
+      "id": 1,
+      "contacts": [
+        {
+          "id": "1",
+          "name": "Русаков Терентий Русланович",
+          "phone": "+375(582)239-13-593",
+          "company": "МегаФон",
+          "email": "ekaukekota-6233@yopmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "2",
+          "name": "Буров Леонард Федосеевич",
+          "phone": "+375582899257",
+          "company": "Группа «СОК»",
+          "email": "praffauseppazau-5540@yopmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "3",
+          "name": "Ефремов Иосиф Витальевич",
+          "phone": "+375582642937",
+          "company": "СИА Интернейшнл",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "4",
+          "name": "Медведев Василий Петрович",
+          "phone": "+375582984820",
+          "company": "СУЭК",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "5",
+          "name": "Воронов Натан Федорович",
+          "phone": "+375582630439",
+          "company": "Группа ЧТПЗ",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "6",
+          "name": "Медведев Василий Петрович",
+          "phone": "+375291230912",
+          "company": "Трансмашхолдинг",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "7",
+          "name": "Бобров Роман Федосеевич",
+          "phone": "+375582344152",
+          "company": "SNS",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "8",
+          "name": "Некрасов Валентин Демьянович",
+          "phone": "+375582228006",
+          "company": "Евроцемент",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "9",
+          "name": "Горшков Пантелеймон Геласьевич",
+          "phone": "+375582056841",
+          "company": "Группа «Илим»",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "10",
+          "name": "Зиновьев Герман Мэлорович",
+          "phone": "+375582522024",
+          "company": "Северстальтранс",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "contacts": [
+        {
+          "id": "1",
+          "name": "Крылов Юрий Иванович",
+          "phone": "+375582258556",
+          "company": "М.Видео",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "2",
+          "name": "Пестов Соломон Романович",
+          "phone": "+375582212844",
+          "company": "Евросервис",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "3",
+          "name": "Бобылёв Рудольф Арсеньевич",
+          "phone": "+375582693716",
+          "company": "Ист Лайн",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "4",
+          "name": "Уваров Корнелий Федорович",
+          "phone": "+375582831534",
+          "company": "Трансбункер",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "5",
+          "name": "Сергеев Платон Вадимович",
+          "phone": "+375582142278",
+          "company": "СУ-155",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "6",
+          "name": "Фролов Григорий Авксентьевич",
+          "phone": "+375582168009",
+          "company": "Лента",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "7",
+          "name": "Абрамов Антон Рубенович",
+          "phone": "+375582358590",
+          "company": "Техносила",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "8",
+          "name": "Ширяев Нинель Мэлорович",
+          "phone": "+375582290578",
+          "company": "Ариант",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "9",
+          "name": "Архипов Варлаам Авксентьевич",
+          "phone": "+375291230912",
+          "company": "Эксперт-Корсо",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "10",
+          "name": "Быков Виктор Яковович",
+          "phone": "+375582920364",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "contacts": [
+        {
+          "id": "1",
+          "name": "Тимофеев Родион Николаевич",
+          "phone": "+375291230912",
+          "company": "Русагро",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "2",
+          "name": "Евсеев Аскольд Пётрович",
+          "phone": "+375582476396",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "3",
+          "name": "Кудряшов Григорий Филатович",
+          "phone": "+375291230912",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "4",
+          "name": "Рыбаков Азарий Донатович",
+          "phone": "+375582280014",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "5",
+          "name": "Кудрявцев Макар Федорович",
+          "phone": "+375582128331",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "6",
+          "name": "Соловьёв Алан Федосеевич",
+          "phone": "+375582765015",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "7",
+          "name": "Брагин Давид Миронович",
+          "phone": "+375582229854",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "8",
+          "name": "Антонов Глеб Евсеевич",
+          "phone": "+375291230912",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "9",
+          "name": "Гущин Ефим Агафонович",
+          "phone": "+375291230912",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        },
+        {
+          "id": "10",
+          "name": "Капустин Всеволод Проклович",
+          "phone": "+375291230912",
+          "company": "OAO Калинка",
+          "email": "kalinka-vasya@gmail.com",
+          "position": "менеджер"
+        }
+      ]
+    }
+  ]
+}

@@ -27,9 +27,9 @@ export const AuthActionCreators = {
     payload,
   }),
   login: (user: string, password: string) => async (dispatch: AppDispatch) => {
-    try {
-      dispatch(AuthActionCreators.setIsLoading(true));
-      setTimeout(async () => {
+    dispatch(AuthActionCreators.setIsLoading(true));
+    setTimeout(async () => {
+      try {
         // const { data } = await UserService.auth(user);
 
         ///////// gh-pages /////////
@@ -55,12 +55,12 @@ export const AuthActionCreators = {
             AuthActionCreators.setError("Incorrect username or password")
           );
         }
-      }, 1000);
-    } catch (e) {
-      dispatch(AuthActionCreators.setError("Login error"));
-    } finally {
-      dispatch(AuthActionCreators.setIsLoading(false));
-    }
+      } catch (e) {
+        dispatch(AuthActionCreators.setError("Login error"));
+      } finally {
+        dispatch(AuthActionCreators.setIsLoading(false));
+      }
+    }, 1000);
   },
   logout: () => async (dispatch: AppDispatch) => {
     localStorage.removeItem("user");

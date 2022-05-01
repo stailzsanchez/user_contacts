@@ -66,12 +66,7 @@ const ContactForm = React.memo((props: ContactFormType) => {
             rules={[rules.required("Enter name")]}
             name="name"
           >
-            <Input
-              autoFocus
-              name="name"
-              placeholder="Name"
-              prefix={<UserOutlined />}
-            />
+            <Input name="name" placeholder="Name" prefix={<UserOutlined />} />
           </Form.Item>
 
           <Form.Item label="Phone" name="phone">

@@ -54,7 +54,6 @@ const Contacts = () => {
         style={{ margin: "20px auto", width: "300px" }}
         placeholder="Search by..."
         enterButton
-        autoFocus
         onChange={onSearchChange}
       />
 

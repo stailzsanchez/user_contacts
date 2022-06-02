@@ -12,8 +12,8 @@ const LoginForm = () => {
   const { error, isLoading } = useTypedSelector((state) => state.authReducer);
 
   //Local state
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("user");
+  const [password, setPassword] = useState("123");
 
   const submit = () => {
     login(username, password);
@@ -29,6 +29,7 @@ const LoginForm = () => {
         label="Username"
         name="username"
         rules={[rules.required("Enter username!")]}
+        initialValue={username}
       >
         <Input value={username} onChange={(e) => setUsername(e.target.value)} />
       </Form.Item>
@@ -39,6 +40,7 @@ const LoginForm = () => {
         label="Password"
         name="password"
         rules={[rules.required("Enter password!")]}
+        initialValue={password}
       >
         <Input
           value={password}

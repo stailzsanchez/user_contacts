@@ -1,4 +1,4 @@
-[Publiched app](https://stailzgit.github.io/user_contacts)
+[Published app](https://stailzgit.github.io/user_contacts)
 
 login: `user`
 password: `123`

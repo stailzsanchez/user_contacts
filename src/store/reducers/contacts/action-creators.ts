@@ -20,12 +20,12 @@ export const ContactsActionCreators = {
     dispatch(ContactsActionCreators.setIsLoadingContact(true));
     setTimeout(async () => {
       try {
-        const { data: userContacts } = await ContactsService.fetchUserContacts(
-          userId
-        );
+        // const { data: userContacts } = await ContactsService.fetchUserContacts(
+        //   userId
+        // );
 
         // ///////// gh-pages /////////
-        // const userContacts = ContactsService.fetchUserContacts(userId);
+        const userContacts = ContactsService.fetchUserContacts(userId);
         // ///////// gh-pages /////////
 
         dispatch(ContactsActionCreators.addAllContact(userContacts.contacts));

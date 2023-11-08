@@ -30,10 +30,10 @@ export const AuthActionCreators = {
     dispatch(AuthActionCreators.setIsLoading(true));
     setTimeout(async () => {
       try {
-        const { data } = await UserService.auth(user);
+        // const { data } = await UserService.auth(user);
 
         // ///////// gh-pages /////////
-        // const data = UserService.auth(user);
+        const data = UserService.auth(user);
         // ///////// gh-pages /////////
 
         if (!data.length) {
